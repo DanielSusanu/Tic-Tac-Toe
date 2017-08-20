@@ -1,0 +1,97 @@
+body {
+    background: white;
+    color: #222222;
+    padding: 0;
+    margin: 0;
+    font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    line-height: 1;
+    position: relative;
+    cursor: default;
+}
+
+.row {
+    margin: 0;
+}
+
+.center {
+    text-align: center;
+}
+
+.hover {
+    color: rgba(82, 157, 221, 0.57);
+}
+
+.tictactoe-header h1 {
+    font-size: 4.5em;
+}
+
+.tictactoe-header h4 {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.cell {
+    height: 140px;
+    width: 179.98px;
+}
+
+.cell i {
+    height: 100%;
+    width: 100%;
+    font-size: 5em;
+    text-align: center;
+    display: block;
+    padding: .5em;
+}
+
+ul.board-cells {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul.board-cells>li {
+    width: 33.33333%;
+    float: left;
+}
+
+.border-right {
+    border-right: 2px solid rgba(19, 174, 143, 0.37);
+}
+
+.border-bottom {
+    border-bottom: 2px solid rgba(19, 174, 143, 0.37);
+}
+
+.fa-user,
+.fa-desktop {
+    font-size: 5em!important;
+}
+
+.fa-user:hover {
+    cursor: pointer;
+    color: #333;
+}
+
+.fa-desktop:hover {
+    cursor: pointer;
+    color: #333;
+}
+
+p.output {
+    font-size: 2em;
+}
+
+.green {
+    color: green;
+}
+
+.red {
+    color: red;
+}
+
+.pointer {
+    cursor: pointer;
+}
